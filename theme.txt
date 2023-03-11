@@ -1,0 +1,5 @@
+Orange : ff5c25
+Blue Light BG : d3eff0
+Blue Dark BG : c8e6e7
+Light Font : b3e4e7
+Dark Font : 020303
