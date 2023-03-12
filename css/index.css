@@ -172,6 +172,9 @@ body{
     letter-spacing: 1px;
     color: white;
 }
+.menus ul{
+    flex-wrap: wrap;
+}
 .menus ul li{
     margin: 2pc;
     letter-spacing: 2px;
@@ -206,4 +209,80 @@ body{
 }
 .s i{
     color: white;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 805px){
+    .col2 .info h1{
+        font-size: 6pc;
+    }   
+    #grouppeople{
+        
+        width: 32pc;
+    }
+    .container-c1 .c1_info{
+        width: 80%;
+        
+    }
+}
+@media only screen and (max-width: 669px){
+  
+    .col2 .info h1{
+        font-size: 4pc;
+    }   
+    .col2 .info ul li{
+        font-size: 1.3pc;
+    }
+    #imgcircle{
+        width: 40pc;
+    }
+    #grouppeople{
+        
+        width: 28pc;
+    }
+}
+
+@media only screen and (max-width: 524px){
+
+    .col1{
+        font-size: 3pc;
+    }
+    .col2{
+        width: 50%;
+    }
+    .col2 .info{
+        left: -15pc;
+        
+    }
+    .col2 .info button{
+        font-size: 1pc;
+    
+    }
+    .col2 .info h1{
+        font-size: 2pc;
+    }   
+    .col2 .info ul li{
+        font-size: 20px;
+    }
+    #imgcircle{
+        width: 20pc;
+    }
+    #grouppeople{
+        
+        width: 28pc;
+    }
+    #phonebottom{
+        width: 20pc;
+    }
+    .col2 img{
+        width: 20pc;
+        left: -10pc;
+    }
+    .container-footer{
+        text-align: center;
+    }
+    .footer{
+        justify-content: center;
+    }
 }
